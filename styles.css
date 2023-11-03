@@ -15,7 +15,7 @@
             #2C3136,
             #1D2023);
 
-    --bg04: #818080;
+    --bg04: #363636;
     
     --border01: #22262A;
     --border02: #1A1D21;
@@ -132,7 +132,7 @@ header h3{
 }
 
 .name{
-    color:#A7A9AB;
+    color:#49494a;
     font-size:1.5rem;
     text-transform:capitalize;
 }
