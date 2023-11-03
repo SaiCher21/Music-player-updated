@@ -12,7 +12,7 @@
             #1D1F23);
 
     --bg03: linear-gradient(135deg,
-            #2C3136,
+            #1d1f21,
             #1D2023);
 
     --bg04: #9a9999;
@@ -114,7 +114,7 @@ header .hdbtn {
 header h3{
     text-transform:uppercase;
     font-size:14px;
-    color:#dcdada;
+    color:#ffffff;
 }
 
 .player{
@@ -132,13 +132,13 @@ header h3{
 }
 
 .name{
-    color:#A7A9AB;
+    color:#ffffff;
     font-size:1.5rem;
     text-transform:capitalize;
 }
 
 .artist{
-    color:#7c7d80;
+    color:#85dc4f;
     font-size:14px;
     text-transform:capitalize;
     padding:10px 0 20px 0;
