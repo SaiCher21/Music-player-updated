@@ -4,7 +4,7 @@
 
     /* bg */
     --bg01: linear-gradient(180deg,
-            #36526e 0%,
+            #1f456b 0%,
             #181A1D 100%);
 
     --bg02: linear-gradient(135deg,
@@ -15,47 +15,47 @@
             #2C3136,
             #1D2023);
 
-    --bg04: #363636;
+    --bg04: #9a9999;
     
     --border01: #22262A;
     --border02: #1A1D21;
 
     /* box-shadow */
     --box-shadow01:
-          6px 6px 10px #4c5e85,
-          -6px -6px 10px #4c739a,
+          6px 6px 10px #1f456b,
+          -6px -6px 10px #1f456b,
           inset 2px 2px 6px #33353b,
           inset -3px -3px 6px #151618;
 
     --box-shadow02:
-          -6px -6px 10px #4c5e85,
+          -6px -6px 10px #1f456b,
            6px 6px 10px #2c3136, 
            inset 2px 2px 6px #33353b,
            inset -3px -3px 6px #151618;
            
     --box-shadow03:
-           6px 6px 12px #4c5e85,
+           6px 6px 12px #1f456b,
            -6px -6px 12px #2c3136; 
     
     --box-shadow04:
           inset 2px 2px 3px -2px rgba(167, 169, 171, 0.322),
-          inset 0px -1px 1px 0px #212225;
+          inset 0px -1px 1px 0px #4a4c4e;
           
     --box-shadow05: 
-          8px 8px 12px #4c5e85,
-          -2px -2px 10px #2c3136,
+          8px 8px 12px #121213,
+          -2px -2px 10px #1e1e20,
           inset 2px 2px 3px #212225,
           inset -2px -2px 3px #151618;
     
     --box-shadow06:
-          10px 10px 12px #252f42,
-          -10px -10px 12px #252f42,
+          10px 10px 12px #121213,
+          -10px -10px 12px #1e1e20,
           inset 4px 4px 8px #212225,
           inset -4px -4px 8px #151618;       
      
     --box-shadow07:
-          10px 10px 12px #252f42,
-          -10px -10px 12px #252f42,
+          10px 10px 12px #121213,
+          -10px -10px 12px #1e1e20,
           inset -4px -4px 8px #212225,
           inset 4px 4px 8px #151618;
          
@@ -114,7 +114,7 @@ header .hdbtn {
 header h3{
     text-transform:uppercase;
     font-size:14px;
-    color:#86898c;
+    color:#dcdada;
 }
 
 .player{
@@ -132,7 +132,7 @@ header h3{
 }
 
 .name{
-    color:#49494a;
+    color:#A7A9AB;
     font-size:1.5rem;
     text-transform:capitalize;
 }
