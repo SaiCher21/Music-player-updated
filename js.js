@@ -88,7 +88,7 @@ mainAudio.addEventListener("timeupdate", (e) => {
     if(currentSec < 10){
        currentSec = `0${currentSec}`;
     }
-    musicCurrentTime.innerText = `${currentMin}:${currentSec}`
+    musicCurrentTime.innerText = `${currentMin}:${currentSec}`;
 });
 
 progressArea.addEventListener("click", (e) => {

@@ -176,16 +176,34 @@ header h3{
     box-shadow:var(--box-shadow04);
 }
 
+.progress-bar::before {
+    content: "";
+    position:absolute;
+    background:var(--bg02);
+    box-shadow:var(--box-shadow05);
+    border-radius: 50%;
+    top:50%;
+    right:-14px; 
+    z-index: 2;
+    width:20px;
+    height:20px;
+    outline:none; 
+    border:none;
+    pointer-events: none;
+    transform:translateY(-50%);
+    transition:all 0.2s ease;
+}
+
 .progress-bar::after {
     content: "";
     position:absolute;
     background:#54ce0e;
     border-radius: 50%;
     top:50%;
-    right:-5px; 
+    right:-7px; 
     z-index: 2;
-    width:15px;
-    height:15px;
+    width:6px;
+    height:6px;
     outline:none; 
     border:none;
     pointer-events: none;
