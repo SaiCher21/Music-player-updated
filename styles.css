@@ -122,8 +122,8 @@ header h3{
 }
 
 .img{
-    width:18rem;
-    height:18rem;
+    width:12rem;
+    height:12rem;
     margin-bottom :2rem;
     object-fit:cover;
     border:10px solid var(--border02);
